@@ -3,6 +3,7 @@ package net.sourceforge.plantuml.xcore;
 import java.util.Collection;
 
 import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
@@ -26,4 +27,10 @@ public class XcoreDiagramIntentProvider extends EcoreDiagramIntentProvider {
 			}
 		});
 	}
+
+	@Override
+	public Boolean supportsSelection(ISelection selection) {
+		return Boolean.TRUE;
+	}
+	
 }

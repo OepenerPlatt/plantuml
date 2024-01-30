@@ -7,7 +7,7 @@
 
       <diagramTextProvider
             id="net.sourceforge.plantuml.uml2.Uml2ClassDiagramTextProvider"
-            providerClass="net.sourceforge.plantuml.uml2.Uml2ClassDiagramTextProvider"
+            providerClass="net.sourceforge.plantuml.uml2.Uml2ClassDiagramTextProviderXXXXXXX"
             label="Class diagrams generated from UML2 models"
             >
       </diagramTextProvider>
